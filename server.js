@@ -71,6 +71,14 @@ app.set('views engine', 'hbs');
 
     });
 
+    app.get('/projects', (req, res) => {
+        res.render('projects.hbs', {
+            pageTitle: 'Projects'
+
+        });
+
+    });
+
 //http://localhost:3000/home
     app.get('/home', (req, res) => {
 
