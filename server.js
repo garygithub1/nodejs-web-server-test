@@ -57,7 +57,7 @@ hbs.registerHelper('screamIt', (text)=> {
 //Use handle bar (handle bar is using a default "views" folder
 app.set('views engine', 'hbs');
 
-http://localhost:3000/about_me
+//http://localhost:3000/about_me
     app.get('/about_me', (req, res) => {
 
         res.render('about_me.hbs', {
@@ -69,7 +69,7 @@ http://localhost:3000/about_me
 
     });
 
-http://localhost:3000/home
+//http://localhost:3000/home
     app.get('/home', (req, res) => {
 
         res.render('home.hbs', {
@@ -82,7 +82,7 @@ http://localhost:3000/home
 
     });
 
-http://localhost:3000/maintainance
+//http://localhost:3000/maintainance
     app.get('/maintainance', (req, res) => {
 
         res.render('maintainance.hbs', {
